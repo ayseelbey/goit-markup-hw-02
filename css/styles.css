@@ -31,18 +31,23 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 button:hover,
 button:focus {
   background-color: #404bbf;
 }
 .hero {
-  color: #ffffff;
   background-color: #2e2f42;
-  text-align: center;
+  height: 600px;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07;
+  line-height: 1.07143;
   letter-spacing: 0.72px;
+  text-align: center;
+  color: #ffffff;
 }
 h2 {
   color: #2e2f42;
@@ -65,9 +70,6 @@ p {
 .team {
   background-color: #f4f4fd;
   text-align: center;
-}
-.team-list {
-  background-color: #ffffff;
 }
 footer {
   background-color: #2e2f42;
