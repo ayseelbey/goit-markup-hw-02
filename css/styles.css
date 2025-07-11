@@ -7,7 +7,11 @@ body {
 ul {
   list-style: none;
 }
-.accent {
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
+}
+.logo .accent {
   color: #4d5ae5;
 }
 a {
